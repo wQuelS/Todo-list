@@ -1,0 +1,11 @@
+{% load static %}
+<ul class="sidebar-nav list-group">
+  <div class="list-group text-center" id="list-tab" role="tablist">
+    <a href="{% url 'todo:task-list' %}" class="list-group-item list-group-item-action list-group-item-dark" id="logout-list" data-toggle="list" role="tab" aria-controls="home">
+      Home
+    </a>
+    <a href="{% url 'todo:tag-list' %}" class="list-group-item list-group-item-action list-group-item-dark" id="logout-list" data-toggle="list" role="tab" aria-controls="home">
+      Tags
+    </a>
+  </div>
+</ul>
